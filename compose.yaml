@@ -39,6 +39,7 @@ services:
       NODE_ENV: development
     ports:
       - ${BACKEND_EXPOSED_PORT:-8610}:3000
+    env_file: .env
     depends_on:
       - pgsql
       - redis
