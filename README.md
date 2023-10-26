@@ -15,3 +15,8 @@
   ```bash
   docker compose up -d
   ```
+- run backend migration
+
+  ```bash
+  docker compose exec backend yarn migration:run
+  ```
