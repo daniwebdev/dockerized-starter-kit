@@ -15,7 +15,9 @@
   ```bash
   docker compose up -d
   ```
-- run backend migration
+
+- make sure node dependencies are installed properly with checking log for `backend` and `frontend` containers.
+- and run backend migration
 
   ```bash
   docker compose exec backend yarn migration:run
