@@ -1,0 +1,3 @@
+alias backend="docker compose exec backend"
+alias dreset="docker compose restart backend"
+alias dlog="docker compose logs backend -f"
